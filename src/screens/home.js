@@ -35,7 +35,7 @@ export const Home = ({ navigation, dispatch, lang }) => {
     return (<View style={styles.main}>
         <Text>{t("home")}</Text>
         { screenkeys.map((skey) => skey !== 'home' && <View style={styles.btn} key={"home-"+skey}>
-                <Button style={styles.btn} title={skey} onPress={() => navigation.navigate(skey)}/>
+                <Button style={styles.btn} title={t(skey)} onPress={() => navigation.navigate(skey)}/>
             </View>
         )}
     </View>);

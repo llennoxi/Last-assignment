@@ -32,6 +32,9 @@ export const screencomponents = [
     Settings
 ];
 
+
+
+
 export default screenkeys.map((skey, i) => {
     const screen = {
         key: skey,

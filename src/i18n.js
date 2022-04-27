@@ -6,14 +6,20 @@ const resources = {
         translation: {
             Finnish: "Finnish",
             English: "English",
-            home: "Home"
+            home: "Home",
+            Increment: "Increment",
+            Decrement: "Decrement",
+            Loading: "Loading"
         }
     },
     FI: {
         translation: {
             Finnish: "Suomi",
             English: "Englanti",
-            home: "Koti"
+            home: "Koti",
+            Increment: "Lisää",
+            Decrement: "Vähennä",
+            Loading: "Lataus"
         }
     }
 };

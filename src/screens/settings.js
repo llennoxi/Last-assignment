@@ -32,8 +32,8 @@ export const Settings = ({ count, lang, dispatch }) => {
         <View>
             <Text>Hello from settings</Text>
             <Text>Count: {count}</Text>
-            <Button title="Increment" onPress={() => dispatch({ type: 'INCREMENT' })}/>
-            <Button title="Decrement" onPress={() => dispatch({ type: 'DECREMENT' })}/>
+            <Button title={t("Increment")} onPress={() => dispatch({ type: 'INCREMENT' })}/>
+            <Button title={t("Decrement")} onPress={() => dispatch({ type: 'DECREMENT' })}/>
             <Button title={t("Finnish")} onPress={() => setLang('FI')} disabled={isCurrentLang('FI')}/>
             <Button title={t("English")} onPress={() => setLang('EN')} disabled={isCurrentLang('EN')}/>
         </View>
