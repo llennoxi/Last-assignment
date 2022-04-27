@@ -9,7 +9,16 @@ const resources = {
             home: "Home",
             Increment: "Increment",
             Decrement: "Decrement",
-            Loading: "Loading"
+            Save: "Save",
+            "note-editor": "note-editor",
+            "create-note": "create-note",
+            "mynotes": "mynotes",
+            loading: "Loading",
+            dev: "dev",
+            "trigger-loading": "trigger-loading",
+            sensor: "sensor",
+            settings: "settings",
+            "Start loading": "Start loading"
         }
     },
     FI: {
@@ -19,7 +28,18 @@ const resources = {
             home: "Koti",
             Increment: "Lisää",
             Decrement: "Vähennä",
-            Loading: "Lataus"
+            Save: "Tallenna",
+            "note-editor": "Muokkaus",
+            "create-note": "Tee Muistiinpano",
+            "mynotes": "Muistiinpanot",
+            loading: "Lataus",
+            dev: "Kehittäjä",
+            "trigger-loading": "Aloita Lataus",
+            sensor: "Sensori",
+            settings: "Asetukset",
+            "Start loading": "Aloita Lataus"
+
+
         }
     }
 };

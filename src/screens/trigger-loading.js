@@ -1,3 +1,4 @@
+import { t } from 'i18next';
 import React from 'react';
 import {
     ActivityIndicator,
@@ -36,7 +37,7 @@ export class TriggerLoading extends React.Component {
             <ActivityIndicator size='large' color='#f1f1f1'/>
             <Button
                 disabled={this.state.isLoading}
-                title="Start loading"
+                title={t("Start loading")}
                 onPress={() => this.startLoading()}
             />
         </View>);

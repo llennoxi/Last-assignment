@@ -1,3 +1,4 @@
+import { t } from 'i18next';
 import React from 'react';
 import { View, Text, TextInput, Button, StyleSheet } from 'react-native';
 
@@ -35,7 +36,7 @@ export const CreateNote = () => {
             placeholder='content here'
             multiline={true}
         />
-        <Button title='Save' onPress={() => save()} />
+        <Button title={t('Save')} onPress={() => save()} />
     </View>);
 }
 
